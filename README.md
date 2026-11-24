@@ -27,7 +27,7 @@
 ## 필요한 것
 
 - **Node.js 18 이상** (진행판 서버. 설치할 패키지는 없습니다)
-- **Python 3.9 이상** (적용 스크립트와 pytest · dotnet · 명령 목록 어댑터)
+- **Python 3.11 이상** (적용 스크립트와 pytest · dotnet · 명령 목록 어댑터)
 
 ## 설치 (Claude Code 스킬)
 
@@ -139,7 +139,7 @@ tests/                      시험 (python -m pytest tests)
 pip install pytest && python -m pytest tests
 ```
 
-서버(이벤트 · 재시작 뒤 복원 · 잘못된 입력 · 다른 사이트 요청 거절), 어댑터, 적용 스크립트를 확인합니다. 새 커밋마다 Windows 와 Ubuntu 에서 돌립니다.
+서버(이벤트 · 재시작 뒤 복원 · 잘못된 입력 · 다른 사이트 요청 거절), 어댑터, 적용 스크립트를 확인합니다. 새 커밋마다 Ubuntu(Python 3.11 · Node 18)와 Windows(Python 3.13 · Node 22)에서 돌립니다. Playwright 와 dotnet 어댑터는 Windows 에서 실제 프로젝트로 확인했고 이 자동 시험에는 들어 있지 않습니다. macOS 에서는 시험해 보지 않았습니다.
 
 ## 라이선스
 
