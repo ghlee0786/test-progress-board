@@ -1,0 +1,3 @@
+* text=auto eol=lf
+*.png binary
+skills/test-progress-board/assets/board/public/app.js -diff linguist-generated
